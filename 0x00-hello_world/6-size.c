@@ -3,8 +3,8 @@ int main()
 {
 	    char charType;
 	    int intType;
-	    Long int Long_intType;
-	    Long Long int Long_Long_intType;
+	    long int Long_intType;
+	    long long int Long_Long_intType;
 	    float floatType;
 		        
 
