@@ -1,18 +1,18 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
- * The main code prints the lowercase alphabet in reverse
+ * main - program that prints the lowercase alphabet in reverse.
+ * You can only use the putchar function
+ * Return: 0
  */
 
 int main(void)
 {
-	int alph = 'z';
-	
-	while (alph >= 'a')
+	int n = 122;
+	while (n > 96)
 	{
-		putchar(alph);
-		alph = alph - 1;
+		putchar(n);
+		n -= 1;
 	}
 	putchar('\n');
 	return (0);
