@@ -1,5 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
+
+/**
+ * This program prints digital numbers from 0 to 9
+ *
+ */
+
 int main(void)
 {
 	int n;
@@ -8,6 +14,7 @@ int main(void)
 	{
 		printf("%d", n);
 	}
+	printf("\n");
 	return (0);
 }
 

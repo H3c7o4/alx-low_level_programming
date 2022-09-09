@@ -1,6 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
+/**
+ * This program do the following things :
+ * generate a random number
+ * tells us if the number is positive, negative or null
+ */
+
 int main(void)
 {
 	int n;
