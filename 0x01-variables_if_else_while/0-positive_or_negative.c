@@ -17,7 +17,7 @@ int main(void)
 	}
 	else
 	{
-	print("%d is negative\n", n);
+		print("%d is negative\n", n);
 	}
 	return (0);
 }
