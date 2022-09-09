@@ -1,14 +1,14 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 int main(void)
 {
-	int alph=’z’;
+	int alph='z';
 	
-	while (alph>=’a’)
+	while (alph>='a')
 	{
 		putchar(alph);
-		alph=alph–;    
+		alph=alph-1;    
 	}
-	putchar(‘\n’);
+	putchar('\n');
 	return (0);
 }

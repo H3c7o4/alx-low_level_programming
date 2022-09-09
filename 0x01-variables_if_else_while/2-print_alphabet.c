@@ -1,15 +1,16 @@
 #include <stdlib.h>
+#include <stdio.h>
 
 int main(void)
 {
-	int alph=’a’;
+	int alph= 'a';
 	
-	while (alph<=’z’);
+	while (alph <= 'z')
 	{
 		putchar(alph);
-		alph=alph++;    
+		alph= alph+1;    
 	}
-	putchar(‘\n’);
+	putchar('\n');
 	return (0);
 }
 

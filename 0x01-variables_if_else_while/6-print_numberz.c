@@ -1,5 +1,5 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 int main(void)
 {
 	int n=0;
@@ -8,6 +8,6 @@ int main(void)
 	{
 		putchar(n);
 	}
-	putchar(‘\n’);
+	putchar('\n');
 	return (0);
 }

@@ -1,21 +1,21 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 int main(void)
 {
-	int alph=’a’;
-        int ALPH=’A’;
+	int alph='a';
+        int ALPH='A';
 
-	while (alph<=’z’)
+	while (alph<='z')
 	{
 		putchar(alph);
-		alph=alph++;    
+		alph=alph+1;    
 	}
-	while (ALPH<=’Z’)
+	while (ALPH <= 'Z')
 	{
 		putchar(ALPH);
-		alph=alph++;
+		ALPH=ALPH+1;
 	}
-	putchar(‘\n’);
+	putchar('\n');
 	return (0);
 }
 
