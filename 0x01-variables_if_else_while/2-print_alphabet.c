@@ -3,12 +3,12 @@
 
 int main(void)
 {
-	int alph= 'a';
+	int alph = 'a';
 	
 	while (alph <= 'z')
 	{
 		putchar(alph);
-		alph= alph+1;    
+		alph = alph+1;    
 	}
 	putchar('\n');
 	return (0);

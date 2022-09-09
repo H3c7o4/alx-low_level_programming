@@ -2,18 +2,18 @@
 #include <stdio.h>
 int main(void)
 {
-	int alph='a';
-        int ALPH='A';
+	int alph = 'a';
+        int ALPH = 'A';
 
-	while (alph<='z')
+	while (alph <= 'z')
 	{
 		putchar(alph);
-		alph=alph+1;    
+		alph = alph+1;    
 	}
 	while (ALPH <= 'Z')
 	{
 		putchar(ALPH);
-		ALPH=ALPH+1;
+		ALPH = ALPH+1;
 	}
 	putchar('\n');
 	return (0);

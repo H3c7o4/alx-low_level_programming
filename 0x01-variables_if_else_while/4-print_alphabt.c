@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(void)
 {
-	int alph='a';
+	int alph = 'a';
 
 	for (alph ='a'; alph <='z' && alph !='e' && alph !='q'; alph++)
 	{
