@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/** This program prints the alphabet in lower and upper case
+/**
+ * This program prints the alphabet in lower and upper case
  *
  */
 
