@@ -2,11 +2,10 @@
 
 /**
  * main - The program prints _putchar
- *Return : int
- * Return : 0 if success
+ * Return - int
  */
 
-int main(void) 
+int main(void)
 {
 	int i = 0;
 	char strng_ptchr[8] = "_putchar";
