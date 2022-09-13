@@ -2,8 +2,8 @@
 
 /**
  * main - The program prints _putchar
- * 
  * Return : int
+ * Return - int
  */
 
 int main(void)
