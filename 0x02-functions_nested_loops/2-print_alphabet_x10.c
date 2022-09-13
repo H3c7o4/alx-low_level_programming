@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- *  * void print_alphabet_x10 - 10 times the alphabet, in lowercase, followed by a new line.
- *   */
+ * void print_alphabet_x10 - 10 times the alphabet, in lowercase, followed by a new line.
+ */
 
 void print_alphabet_x10(void)
 {
-	int int i = 0 , alph;
+	int i = 0;
+        int alph;
 
 	While (i < 10)
 	{
