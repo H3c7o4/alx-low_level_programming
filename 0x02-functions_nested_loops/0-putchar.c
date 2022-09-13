@@ -2,7 +2,10 @@
 
 /**
  * main - The program prints _putchar
- * Return - int
+ *
+ * main : The main code prints _putchar
+ *
+ * return - 0 if success
  */
 
 int main(void)
