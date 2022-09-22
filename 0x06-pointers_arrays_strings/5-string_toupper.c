@@ -17,5 +17,5 @@ char *string_toupper(char *ch)
 			*(ch + i) = *(ch + i) - ' ';
 		i++;
 	}
-	return (ch)
+	return (ch);
 }
