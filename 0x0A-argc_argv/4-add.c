@@ -19,8 +19,7 @@ int check_digit(char *a)
 	{
 		if (a[i] < '0' || a[i] > '9')
 			return (-1);
-		else
-			num = num * 10 + (a[i] - '0');
+		num = num * 10 + (a[i] - '0');
 		i++;
 	}
 	return (num);
