@@ -9,9 +9,9 @@
  * Description:  This structure is created to collect datas from dogs
  */
 
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+}dog;
