@@ -1,4 +1,5 @@
-#include <stdio.h>
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog -This is a structure
@@ -14,4 +15,5 @@ typedef struct dog
 	char *name;
 	float age;
 	char *owner;
-}dog;
+} dog_t;
+#endif
