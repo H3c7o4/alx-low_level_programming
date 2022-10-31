@@ -1,4 +1,4 @@
-#0x15. C - File I/O
+# 0x15. C - File I/O
 ---
 1. Look for the right source of information online
 2. How to create, open, close, read and write files
@@ -8,8 +8,8 @@
 7. What are and how to use the flags O_RDONLY, O_WRONLY, O_RDWR
 8. What are file permissions, and how to set them when creating a file with the open system call
 
----
-#File Containance
+
+# File Containance
 ---
 
 File 0-read_textfile.c is a function that reads a text file and prints it to the POSIX standard output.
