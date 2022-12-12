@@ -1,4 +1,4 @@
-#include "main.h"
+#include "mainop.h"
 
 /**
  * add - Adding two integers
@@ -37,18 +37,6 @@ int mul(int a, int b)
 }
 
 /**
- * div - Adding two integers
- * @a: input integer to divide
- * @b: input integer of division
- * Return: The division of the integers
- */
-
-int div(int a, int b)
-{
-	return (a / b);
-}
-
-/**
  * mod - Adding two integers
  * @a: input integer
  * @b: input integer
@@ -58,4 +46,16 @@ int div(int a, int b)
 int mod(int a, int b)
 {
 	return (a % b);
+}
+
+/**
+ * div - divvide two integers
+ * @a: input integer
+ * @b: input integer
+ * Return: The division of the integers
+ */
+
+int div(int a, int b)
+{
+        return (a / b);
 }
