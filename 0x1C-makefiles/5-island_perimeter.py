@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" Program that discover the perimeter of an island depends on grid """
 
 
 def island_perimeter(grid):
@@ -13,4 +14,4 @@ def island_perimeter(grid):
                 p += 1
             else:
                 pass
-    return p * 2 + 2
+    return (p * 2 + 2)
