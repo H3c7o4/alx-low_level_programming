@@ -2,3 +2,4 @@
 
     - What are structures, when, why and how to use them
     - How to use typedef
+    - OOP with structures in C
